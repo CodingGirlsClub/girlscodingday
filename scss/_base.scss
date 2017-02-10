@@ -1,0 +1,96 @@
+html,body{
+    height: 100%;
+}
+body{
+    background: #fff;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    -webkit-text-size-adjust: 100%;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-family: $primary-font;
+    color: #555;
+}
+h1,h2,h3,h3,h4,h5,h6{
+    margin-top: 0px;
+    font-family: $title-font;
+}
+a{
+    text-decoration: none;
+    @include transition(all 0.3s);
+    color:$primary-color;
+    &:hover,&:focus{
+        outline: 0!important;
+        text-decoration: none;
+    }
+}
+strong,b{
+    font-weight: 700;
+}
+.lead{
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 37px;
+}
+.no-padding{
+    padding: 0!important;
+}
+.no-margin{
+    margin: 0!important;
+}
+.dark-section{
+    background: #333;
+}
+.text-underline{
+    text-decoration: underline!important;
+}
+.text-white{
+    color:#fff;
+}
+.text-primary{
+    color: $primary-color;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+.font-400{
+    font-weight:400!important;
+}
+.font-700{
+    font-weight: 700!important;
+}
+.display-table {
+    width: 100%;
+    height: 100%;
+    display: table;
+    position: relative;
+}
+.verticle-middle {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+}
+.padded-top-70{
+    padding-top: 70px;
+}
+.padded-bottom-40{
+    padding-bottom: 40px;
+}
+.margin-b-20{
+    margin-bottom: 20px;
+}
+.margin-b-30{
+    margin-bottom: 30px;
+}
+.center-title{
+    padding-bottom: 40px;
+    text-align: center;
+    h2{
+        text-transform: capitalize;
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 30px;
+    }
+}

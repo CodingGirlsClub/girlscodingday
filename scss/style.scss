@@ -1,0 +1,267 @@
+
+/* 
+    Author     : Design_mylife
+    File       : Assan event landing template
+    version    : v1.0
+*/
+
+/**google font**/
+@import 'https://fonts.googleapis.com/css?family=Montserrat:400,700';
+@import 'https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700';
+@import "_variables.scss";
+@import "_mixins.scss";
+@import "_base.scss";
+@import "_buttons.scss";
+@import "_header.scss";
+@import "_hero-sections.scss";
+@import "_icon-boxes.scss";
+@import "_cta.scss";
+@import "_half-images-section.scss";
+@import "_counter-countdown.scss";
+@import "_person-box.scss";
+@import "_testimonials.scss";
+@import "_schedule.scss";
+@import "_pricing.scss";
+@import "_footer.scss";
+
+
+.faqs{
+    background: $primary-color;
+    h1,h4,p,.center-title h2{
+        color: #fff;
+    }
+    p{
+        opacity: 0.8;
+    }
+}
+.register-form{
+    .form-control{
+        height: 47px;
+        @include border-radius(2px);
+        @include box-shadow(none);
+        margin-bottom: 20px;
+    }
+}
+.sponsors-row{
+    img{
+        display: block;
+        margin: 0 auto;
+    }
+}
+.subscribe-section{
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background: url('../images/bg4.jpg') no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 0 0 ;
+    h1{
+        margin-bottom: 25px;
+    }
+}
+.newsletter-form{
+    max-width:500px;
+    margin:0 auto;
+    .form-control{
+        @include border-radius(2px);
+        @include box-shadow(none);
+        display: inline-block;
+        width:280px;
+        border: 0px;
+        height: 47px;
+        vertical-align: middle;
+    }
+}
+.footer{
+    padding: 20px 0;
+    background: #333;
+    .list-inline>li>a{
+        color: #fff;
+        text-transform: capitalize;
+        &:hover{
+            text-decoration: underline;
+            i{
+                opacity: 1;
+            }
+        }
+        i{
+            font-size: 20px;
+            opacity: 0.8;
+        }
+    }
+    span{
+        color: #fff;
+        opacity: 0.8;
+    }
+}
+
+.gallery-section{
+    background: #fbfbfb;
+}
+.gallery-box{
+    position: relative;
+    overflow: hidden;
+    display: block;
+    img{
+        @include transition(all 0.3s);
+    }
+    .gallery-overay{
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color:rgba(0,0,0,0.4);
+        @include transition(all 0.3s);
+        opacity:0;
+        i{
+            width: 60px;
+            height: 60px;
+            color: #fff;
+            text-align: center;
+            line-height: 60px;
+            display: block;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            margin-left: -30px;
+            margin-top: -30px;
+            font-size: 40px;
+            @include transition(all 0.4s);
+            @include transform(scale(0));
+        }
+    }
+    &:hover{
+        .gallery-overay{
+            opacity: 1;
+            i{
+                @include transform(scale(1));
+            }
+        }
+        img{
+            @include transform(scale(1.1));   
+        }
+    }
+}
+.contact-info{
+    ul li a{
+        font-size: 20px;
+        color: #999;
+    }
+    .lead{
+        line-height:21px;
+        strong{
+            font-size: 13px;
+            text-transform: uppercase;
+            line-height: 13px;
+            display: block;
+            margin-bottom: 10px;
+        }
+    }
+}
+.fun-facts{
+    padding: 120px 0;
+    background-image: url('../images/bg4.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 0 0;
+    text-align:center;
+    h1,span{
+        color: #fff;
+    }
+    h1{
+        font-size: 50px;
+        line-height: 50px;
+    }
+    span{
+        text-transform: uppercase;
+        opacity: 0.8;
+    }
+}
+/*video modal*/
+.video-modal{
+    .modal-body{
+        padding: 0px;
+    }
+    .modal-content{
+        @include border-radius(0px);
+        @include box-shadow(none);
+        border:0px;
+    }
+}
+
+
+/**responsive style**/
+
+@media(max-width:991px){
+    .full-screen h1 {
+        font-size: 35px;
+        line-height: 35px;
+        margin:0;
+        margin-top: 10px;
+    }
+    .full-screen h4{
+        letter-spacing: 0;
+        font-size: 10px;
+    }
+    .lead{
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .full-screen .buttons{
+        margin-top: 0px;
+    }
+    .buttons{
+        .btn-lg {
+        padding: 10px 20px;
+    }
+    }
+    .image-col{
+        position: static;
+        width:100%;
+    }
+    .event-detail {
+        border-left: 0px;
+        padding-left: 15px;
+        position: relative;
+        &:before{
+            display: none;
+        }
+    }
+    .cta, .parallax-bg,.fun-facts,.subscribe-section{
+        background-attachment: scroll!important;
+        background-position: 50% 50%!important;
+    }
+    .half-image-section .half-section-content {
+        padding:30px 0;
+    }
+    #google-map{
+        height: 400px!important;
+    }
+}
+@media(max-width:767px){
+    .event-time .dash .digit {
+        font-size: 25px;
+        height: 32px;
+        line-height: 36px;
+    }
+    .event-info{
+        margin-bottom: 30px;
+        text-align: left;
+        padding-right: 15px;
+    }
+    .event-time .dash{
+        padding: 10px 10px;
+    } 
+    .event-detail img{
+        width: 200px;
+        margin-bottom: 20px;
+    }
+    .tabs-schedule > li > a{
+        padding: 4px 7px;
+        span{
+            font-size: 10px;
+        }
+    }
+}

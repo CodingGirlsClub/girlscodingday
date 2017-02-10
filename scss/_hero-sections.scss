@@ -1,0 +1,36 @@
+/*
+Template hero sections
+*/
+.full-screen{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    h4{
+        font-weight: 400;
+        letter-spacing: 2px;
+        margin-bottom:0px;
+        .fa-map-marker{
+            margin-left: 10px;
+        }
+    }
+    h1{
+      font-size: 90px;
+      line-height: 90px;
+      margin: 20px 0;
+      font-weight: 700;
+    }
+    .buttons{
+        margin-top: 40px;
+        a{
+            margin: 5px;
+        }
+    }
+}
+.parallax-bg{
+    background-image: url('../images/bg1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 0 0;
+}
+

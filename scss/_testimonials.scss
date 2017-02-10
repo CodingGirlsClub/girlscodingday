@@ -1,0 +1,30 @@
+/*
+Testimonials
+*/
+.testimonials-section{
+    padding: 70px 0;
+    background: $primary-color;
+}
+
+.owl-thumnails{
+    text-align:center;
+    margin-top:30px;
+    .owl-item{
+        .item{
+
+            img{
+                width: 75px;
+                display: block;
+                margin: 0 auto;
+                border: 2px solid transparent;
+                opacity: 0.6;
+                @include transition(all 0.3);
+                cursor: pointer;
+            }
+        }
+        &.synced .item img{
+            border-color: rgba(255,255,255,0.7);
+            opacity: 1;
+        }
+    }
+}

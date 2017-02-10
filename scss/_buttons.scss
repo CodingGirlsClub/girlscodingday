@@ -1,0 +1,65 @@
+/**template buttons**/
+.btn{
+    font-family: $title-font;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12px;
+    @include border-radius(2px);
+    @include transition(all 0.3s);
+    padding: 8px 14px;
+    letter-spacing: 1px;
+}
+.btn-lg{
+    padding: 14px 30px;
+}
+.btn-rounded{
+    @include border-radius(100px);
+}
+.btn-theme-border{
+    border-color: $primary-color;
+    border:1px solid;
+    color: $primary-color;
+    background-color:transparent;
+    &:hover,&:focus{
+        background: $primary-color;
+        color: #fff;
+        border-color: $primary-color;
+    }
+}
+.btn-white-border{
+    border-color: #fff;
+    border:1px solid;
+    color: #fff;
+    background-color:transparent;
+    &:hover,&:focus{
+        color: #333;
+        background: #fff;
+        border-color: #fff;
+    }
+}
+.btn-dark-border{
+    border-color: #333;
+    border:1px solid;
+    color: #333;
+    background-color:transparent;
+    &:hover,&:focus{
+        color: #fff;
+        background: #333;
+        border-color: #333;
+    }
+}
+.btn-theme-bg{
+    background: $primary-color;
+    color: #fff;
+    border-color: $primary-color;
+    &:hover{
+        background-color: #333;
+        color: #fff;
+        border-color: #333;
+    }
+    &:focus{
+        background: $primary-color;
+    color: #fff;
+    border-color: $primary-color;
+    }
+}

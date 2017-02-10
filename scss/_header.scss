@@ -1,0 +1,31 @@
+/**header style**/
+.navbar-inverse{
+    background-color: rgba(0,0,0,0.9);
+    border: 0px;
+    padding: 10px 0;
+    margin: 0px;
+    width:100%;
+    left:0;
+    z-index:999;
+    .navbar-nav>li>a{
+        color: rgba(255,255,255,0.8);
+        text-transform: uppercase;
+        font-weight: 400;
+        font-family: $title-font;
+        font-size: 12px;
+        &:hover{
+            color: rgba(255,255,255,1);
+        }
+    }
+    .navbar-brand{
+        font-size: 22px;
+        font-weight: 700;
+         font-family: $title-font;
+         text-transform: uppercase;
+         color: #fff;
+    }
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: rgba(255,255,255,1);
+    background-color: transparent;
+}
