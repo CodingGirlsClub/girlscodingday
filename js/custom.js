@@ -44,10 +44,10 @@ $(document).ready(function () {
     //countDown js
     $("#countdown").countDown({
         targetDate: {
-            "day": 25,
-            "month": 12,
+            "day": 11,
+            "month": 3,
             "year": 2017,
-            "hour": 0,
+            "hour": 10,
             "min": 0,
             "sec": 0
         },
