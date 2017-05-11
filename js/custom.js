@@ -45,10 +45,10 @@ $(document).ready(function () {
     $("#countdown").countDown({
         targetDate: {
             "day": 11,
-            "month": 5,
+            "month": 6,
             "year": 2017,
-            "hour": 10,
-            "min": 0,
+            "hour": 9,
+            "min": 30,
             "sec": 0
         },
         omitWeeks: true
@@ -56,7 +56,7 @@ $(document).ready(function () {
 //testominals
 var sync1 = $("#sync1");
   var sync2 = $("#sync2");
- 
+
   sync1.owlCarousel({
     singleItem : true,
     slideSpeed : 1000,
@@ -66,7 +66,7 @@ var sync1 = $("#sync1");
     afterAction : syncPosition,
     responsiveRefreshRate : 200
   });
- 
+
   sync2.owlCarousel({
     items : 8,
     itemsDesktop      : [1199,10],
@@ -79,7 +79,7 @@ var sync1 = $("#sync1");
       el.find(".owl-item").eq(0).addClass("synced");
     }
   });
- 
+
   function syncPosition(el){
     var current = this.currentItem;
     $("#sync2")
@@ -91,13 +91,13 @@ var sync1 = $("#sync1");
       center(current);
     }
   }
- 
+
   $("#sync2").on("click", ".owl-item", function(e){
     e.preventDefault();
     var number = $(this).data("owlItem");
     sync1.trigger("owl.goTo",number);
   });
- 
+
   function center(number){
     var sync2visible = sync2.data("owlCarousel").owl.visibleItems;
     var num = number;
@@ -107,7 +107,7 @@ var sync1 = $("#sync1");
         var found = true;
       }
     }
- 
+
     if(found===false){
       if(num>sync2visible[sync2visible.length-1]){
         sync2.trigger("owl.goTo", num - sync2visible.length+2);
@@ -121,7 +121,7 @@ var sync1 = $("#sync1");
       sync2.trigger("owl.goTo", sync2visible[1]);
     } else if(num === sync2visible[0]){
       sync2.trigger("owl.goTo", num-1);
-    } 
+    }
   }
   //counter up
     $('.counter-digit').counterUp({
