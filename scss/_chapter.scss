@@ -2,6 +2,38 @@
   margin-top: 50px;
 }
 
+.chapter-intro__content {
+  h3 {
+    font-weight: bold;
+  }
+  p {
+    font-size: 16px;
+  }
+}
+
+.chapter-intro__time {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.chapter-share {
+  margin-top: 20px;
+}
+
+.chapter-share__icon {
+  width: 30px;
+}
+
+.chapter-share--wechat {
+  .modal-content {
+    width: 350px;
+  }
+
+  .modal-footer {
+    text-align: left;
+  }
+}
+
 .chapter-sponsors {
   text-align: center;
 }
@@ -22,6 +54,13 @@
     display: inline;
     color: $grey;
   }
+}
+
+.chapter-partners__list {
+  img {
+    max-width: 300px;
+  }
+  margin-bottom: 50px;
 }
 
 .chapter-volunteers {

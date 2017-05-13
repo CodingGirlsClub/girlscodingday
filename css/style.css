@@ -604,6 +604,33 @@ Pricing tables
   margin-top: 50px;
 }
 
+.chapter-intro__content h3 {
+  font-weight: bold;
+}
+.chapter-intro__content p {
+  font-size: 16px;
+}
+
+.chapter-intro__time {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.chapter-share {
+  margin-top: 20px;
+}
+
+.chapter-share__icon {
+  width: 30px;
+}
+
+.chapter-share--wechat .modal-content {
+  width: 350px;
+}
+.chapter-share--wechat .modal-footer {
+  text-align: left;
+}
+
 .chapter-sponsors {
   text-align: center;
 }
@@ -620,6 +647,13 @@ Pricing tables
 .chapter-partners__header h2 {
   display: inline;
   color: #c8c8c8;
+}
+
+.chapter-partners__list {
+  margin-bottom: 50px;
+}
+.chapter-partners__list img {
+  max-width: 300px;
 }
 
 .chapter-volunteers {
