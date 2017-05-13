@@ -1,4 +1,4 @@
-/* 
+/*
     Author     : Design_mylife
     File       : Assan event landing template
     version    : v1.0
@@ -336,6 +336,7 @@ Half images section
 /*
 Counter and countdown style
 */
+<<<<<<< HEAD
 .countdown-unit {
   text-align: center;
   display: inline-block;
@@ -343,6 +344,19 @@ Counter and countdown style
 }
 
 .countdown-unit__digit {
+=======
+.event-time {
+  margin-right: -1px;
+}
+.event-time .dash {
+  display: inline-block;
+  padding: 10px 20px;
+}
+.event-time .dash ul {
+  list-style: none;
+}
+.event-time .dash .digit {
+>>>>>>> setup wh page basic ui
   font-size: 40px;
   height: 40px;
   overflow: hidden;
@@ -584,6 +598,37 @@ Pricing tables
 }
 .price-box.popular h3, .price-box.popular ul li {
   color: #fff;
+}
+
+.chapter-container {
+  margin-top: 50px;
+}
+
+.chapter-sponsors {
+  text-align: center;
+}
+
+.chapter-sponsors__header h2 {
+  display: inline;
+  color: #c8c8c8;
+}
+
+.chapter-partners {
+  text-align: center;
+}
+
+.chapter-partners__header h2 {
+  display: inline;
+  color: #c8c8c8;
+}
+
+.chapter-volunteers {
+  text-align: center;
+}
+
+.chapter-header h2 {
+  display: inline;
+  color: #c8c8c8;
 }
 
 .faqs {
