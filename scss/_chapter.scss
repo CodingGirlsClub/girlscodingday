@@ -16,11 +16,11 @@
   font-size: 20px;
 }
 
-.chapter-contact {
+.chapter-intro__item {
   margin-top: 20px;
 }
 
-.chapter-contact__header {
+.chapter-intro__sub-header {
   font-weight: bold;
   color: $grey;
 }
@@ -37,8 +37,12 @@
   }
 }
 
-.chapter-contact--wechat {
-  background: url('../images/chapter/wechat-icon.svg');
+.chapter-requirements {
+  font-size: 18px;
+}
+
+.chapter-date {
+  margin-top: 50px;
 }
 
 .chapter-share {
