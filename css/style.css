@@ -616,6 +616,28 @@ Pricing tables
   font-size: 20px;
 }
 
+.chapter-contact {
+  margin-top: 20px;
+}
+
+.chapter-contact__header {
+  font-weight: bold;
+  color: #c8c8c8;
+}
+
+.chapter-contact__content > span {
+  display: flex;
+  align-items: center;
+}
+.chapter-contact__content i {
+  font-size: 24px;
+  margin-right: 5px;
+}
+
+.chapter-contact--wechat {
+  background: url("../images/chapter/wechat-icon.svg");
+}
+
 .chapter-share {
   margin-top: 20px;
 }
@@ -631,38 +653,21 @@ Pricing tables
   text-align: left;
 }
 
-.chapter-sponsors {
+.chapter-item {
   text-align: center;
+  margin-top: 30px;
 }
 
-.chapter-sponsors__header h2 {
+.chapter-item__header h2 {
   display: inline;
   color: #c8c8c8;
 }
 
-.chapter-partners {
-  text-align: center;
-}
-
-.chapter-partners__header h2 {
-  display: inline;
-  color: #c8c8c8;
-}
-
-.chapter-partners__list {
+.chapter-photo__list {
   margin-bottom: 50px;
 }
-.chapter-partners__list img {
+.chapter-photo__list img {
   max-width: 300px;
-}
-
-.chapter-volunteers {
-  text-align: center;
-}
-
-.chapter-header h2 {
-  display: inline;
-  color: #c8c8c8;
 }
 
 .faqs {

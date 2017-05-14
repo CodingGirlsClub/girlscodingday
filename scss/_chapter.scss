@@ -16,6 +16,31 @@
   font-size: 20px;
 }
 
+.chapter-contact {
+  margin-top: 20px;
+}
+
+.chapter-contact__header {
+  font-weight: bold;
+  color: $grey;
+}
+
+.chapter-contact__content {
+  > span {
+    display: flex;
+    align-items: center;
+  }
+
+  i {
+    font-size: 24px;
+    margin-right: 5px;
+  }
+}
+
+.chapter-contact--wechat {
+  background: url('../images/chapter/wechat-icon.svg');
+}
+
 .chapter-share {
   margin-top: 20px;
 }
@@ -34,42 +59,21 @@
   }
 }
 
-.chapter-sponsors {
+.chapter-item {
   text-align: center;
+  margin-top: 30px;
 }
 
-.chapter-sponsors__header {
+.chapter-item__header {
   h2 {
     display: inline;
     color: $grey;
   }
 }
 
-.chapter-partners {
-  text-align: center;
-}
-
-.chapter-partners__header {
-  h2 {
-    display: inline;
-    color: $grey;
-  }
-}
-
-.chapter-partners__list {
+.chapter-photo__list {
   img {
     max-width: 300px;
   }
   margin-bottom: 50px;
-}
-
-.chapter-volunteers {
-  text-align: center;
-}
-
-.chapter-header {
-  h2 {
-    display: inline;
-    color: $grey;
-  }
 }
