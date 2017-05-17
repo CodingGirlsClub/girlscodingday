@@ -42,16 +42,12 @@ $(document).ready(function () {
     //sticky navbar
     $(".navbar-sticky").sticky({topSpacing: 0});
     //countDown js
-    $("#countdown").countDown({
-        targetDate: {
-            "day": 11,
-            "month": 6,
-            "year": 2017,
-            "hour": 9,
-            "min": 30,
-            "sec": 0
-        },
-        omitWeeks: true
+    $('#countdown').countdown('2017/06/11 09:30:00', function(event) {
+      var $this = $(this).html(event.strftime(''
+        + '<span class="countdown-unit"><span class="countdown-unit__digit">%D</span><br><span>Days</span></span>'
+        + '<span class="countdown-unit"><span class="countdown-unit__digit">%H</span><br><span>Hours</span></span>'
+        + '<span class="countdown-unit"><span class="countdown-unit__digit">%M</span><br><span>Minutes</span></span>'
+        + '<span class="countdown-unit"><span class="countdown-unit__digit">%S</span><br><span>Seconds</span></span>'));
     });
 //testominals
 var sync1 = $("#sync1");

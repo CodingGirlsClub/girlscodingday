@@ -2,22 +2,18 @@
 Counter and countdown style
 */
 
-.event-time{
-        margin-right: -1px;
-    .dash{
-        display: inline-block;
-        padding:10px 20px;
-        ul{
-            list-style: none;
-        }
-        .digit{
-                font-size: 40px;
-                height: 40px;
-                overflow: hidden;
-                font-weight: 700;
-                line-height: 40px;
-                font-family: $title-font;
-                display: inline-block;
-        }
-    }
+.countdown-unit {
+  text-align: center;
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+.countdown-unit__digit {
+  font-size: 40px;
+  height: 40px;
+  overflow: hidden;
+  font-weight: 700;
+  line-height: 40px;
+  font-family: $title-font;
+  display: inline-block;
 }
