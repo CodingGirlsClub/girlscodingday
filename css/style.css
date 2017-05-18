@@ -1,4 +1,4 @@
-/*
+/* 
     Author     : Design_mylife
     File       : Assan event landing template
     version    : v1.0
@@ -271,8 +271,7 @@ Template hero sections
 }
 
 .parallax-bg {
-  /*background-image: url("../images/bg1.jpg");*/
-  background-image: url("http://ww1.sinaimg.cn/large/006tNc79ly1ffhs35yqz7j31kw11xhdx.jpg");
+  background-image: url("../images/bg1.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -337,17 +336,13 @@ Half images section
 /*
 Counter and countdown style
 */
-.event-time {
-  margin-right: -1px;
-}
-.event-time .dash {
+.countdown-unit {
+  text-align: center;
   display: inline-block;
   padding: 10px 20px;
 }
-.event-time .dash ul {
-  list-style: none;
-}
-.event-time .dash .digit {
+
+.countdown-unit__digit {
   font-size: 40px;
   height: 40px;
   overflow: hidden;
