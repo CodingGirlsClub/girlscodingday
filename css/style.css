@@ -611,6 +611,15 @@ Pricing tables
 .chapter-container {
   margin-top: 50px;
 }
+.chapter-container ul {
+  list-style-type: none;
+}
+.chapter-container li {
+  margin: 0 0 0 20px;
+}
+.chapter-container li span {
+  margin: 0 0 0 5px;
+}
 
 .chapter-intro__content h3 {
   font-weight: bold;
@@ -630,7 +639,7 @@ Pricing tables
 
 .chapter-intro__sub-header {
   font-weight: bold;
-  color: #c8c8c8;
+  color: #EC6C27;
 }
 
 .chapter-contact__content > span {
