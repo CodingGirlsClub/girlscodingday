@@ -51,16 +51,31 @@
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                <a class="navbar-brand" href="http://www.codingirls.club/">Girls Coding Day</a>
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="./index.html">Girls Coding Day</a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right smooth-scroll">
                     <li class="active"><a href="./index.html">Home</a></li>
+                    <li class="city-dropdown">
+                      <a data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        城市 <span class="caret"></span>
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a href="./wuhan.html">武汉</a></li>
+                        <li><a href="#">成都</a></li>
+                        <li><a href="#">西安</a></li>
+                        <li><a href="#">杭州</a></li>
+                        <li><a href="#">上海</a></li>
+                        <li><a href="#">北京</a></li>
+                        <li><a href="#">深圳</a></li>
+                        <li><a href="#">广州</a></li>
+                      </ul>
+                    </li>
                 </ul>
             </div>
             <!--/.nav-collapse -->
@@ -80,8 +95,10 @@
               <h3>武汉女性编程日</h3>
               <p>Hello World!</p>
               <p>
-                Dive head first into HTML & CSS. This workshop takes a project-based approach to HTML & CSS. By distinguishing good code from bad, participants will focus on learning a subset of the good parts in order to make something (quick and) awesome.
-                Tackle the barebones of how to quickly develop a web site, and get it live on the Web by the end of the workshop.
+                在一天半的时间内，带领零编程基础的女性入门基本的编程技巧，学习如何制作和部署一个静态网站。
+              </p>
+              <p>
+                本活动是完全公益性质的活动，不需要任何费用，目的就是启发你的编程基因，希望让更多的人了解编程、了解软件开发行业。              </p>
               </p>
               <div class="chapter-intro__time">
                 时间：2017年6月10日
@@ -91,21 +108,27 @@
 
             <hr />
             <div class="row">
-              <div class="col-md-6 col-sm-12">
+              <div class="col-md-5 col-sm-12">
               <div class="chapter-intro__item">
                 <h3 class="chapter-intro__sub-header">联系方式</h3>
-                <div class="chapter-contact__content row">
+                <div class="chapter-awesome__content row">
                   <ul>
-                    <li>
-                      <i class="fa fa-mobile" aria-hidden="true"></i>
+                    <li class="chapter-awesome__item">
+                      <span class="chapter-awesome__icon">
+                        <i class="fa fa-mobile" aria-hidden="true"></i>
+                      </span>
                       <span>18627894686</span>
                     </li>
-                    <li>
-                      <i class="fa fa-envelope" aria-hidden="true"></i>
+                    <li class="chapter-awesome__item">
+                      <span class="chapter-awesome__icon">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                      </span>
                       <span>sunshineflyyang@gmail.com</span>
                     </li>
-                    <li>
-                      <i class="fa fa-weixin" aria-hidden="true"></i>
+                    <li class="chapter-awesome__item">
+                      <span class="chapter-awesome__icon">
+                        <i class="fa fa-weixin" aria-hidden="true"></i>
+                      </span>
                       <span>yxmrunrunrun</span>
                     </li>
                   </ul>
@@ -115,36 +138,45 @@
 
               <div class="chapter-intro__item">
                 <h3 class="chapter-intro__sub-header">需要准备的</h3>
-                <ul class="chapter-requirements">
-                  <li>
-                    <i class="fa fa-laptop" aria-hidden="true"></i>
-                    <span>
-                      笔记本电脑
-                    </span>
-                  </li>
-                  <li>
-                    <i class="fa fa-heart" aria-hidden="true"></i>
-                    <span>
-                      乐于学习乐于分享的心态
-                    </span>
-                  </li>
-                </ul>
+                <div class="chapter-awesome__content row">
+                  <ul>
+                    <li class="chapter-awesome__item">
+                      <span class="chapter-awesome__icon">
+                        <i class="fa fa-laptop" aria-hidden="true"></i>
+                      </span>
+                      <span>
+                        笔记本电脑
+                      </span>
+                    </li>
+                    <li class="chapter-awesome__item">
+                      <span class="chapter-awesome__icon">
+                        <i class="fa fa-heart" aria-hidden="true"></i>
+                      </span>
+                      <span>
+                        乐于学习乐于分享的心态
+                      </span>
+                    </li>
+                  </ul>
+                </div>
               </div>
-                  
+
               </div>
-              <div class="col-md-6 col-sm-12">
-                
+              <div class="col-md-7 col-sm-12">
+
                 <div class="chapter-intro__item">
                   <h3 class="chapter-intro__sub-header">
                     地点
                   </h3>
                   洪山区关山大道332号保利国际中心20层 ThoughtWorks 武汉分公司（关山大道新南路交汇处）
                 </div>
+                <div id="wrap" class="my-map">
+              		<div id="mapContainer"></div>
+              	</div>
               </div>
             </div>
 
 
-            <div class="chapter-share text-right">
+            <!-- <div class="chapter-share text-right">
               <a href="" data-toggle="modal" data-target=".chapter-share--wechat">
                 <img src="images/chapter/wechat.svg" alt="Coding Girls Club" class="chapter-share__icon">
                 分享到微信
@@ -162,9 +194,9 @@
                   </div>
                 </div>
               </div>
-            </div>
+            </div> -->
 
-            <hr>
+            <!-- <hr> -->
           </div>
         </div>
       </div>
@@ -350,9 +382,66 @@
     <script src="js/jquery.countdown.js"></script>
     <script src="plugins/lightbox2/dist/js/lightbox.min.js"></script>
     <script src="js/custom.js"></script>
-    <!--google map-->
-    <!-- <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
-    <script src="js/google-map.js"></script> -->
+    <script src="http://webapi.amap.com/maps?v=1.3&key=8325164e247e15eea68b59e89200988b"></script>
+  	<script>
+  	!function(){
+  		var infoWindow, map, level = 13,
+  			center = {lng: 114.406807, lat: 30.497242},
+  			features = [{type: "Marker", name: "本次活动地点", desc: "湖北武汉市洪山区关山大道332号保利国际中心20层 ThoughtWorks 武汉办公室", color: "red", icon: "cir", offset: {x: -9, y: -31}, lnglat: {lng: 114.411271, lat: 30.493249}}];
+
+  		function loadFeatures(){
+  			for(var feature, data, i = 0, len = features.length, j, jl, path; i < len; i++){
+  				data = features[i];
+  				switch(data.type){
+  					case "Marker":
+  						feature = new AMap.Marker({ map: map, position: new AMap.LngLat(data.lnglat.lng, data.lnglat.lat),
+  							zIndex: 3, extData: data, offset: new AMap.Pixel(data.offset.x, data.offset.y), title: data.name,
+  							content: '<div class="icon icon-' + data.icon + ' icon-'+ data.icon +'-' + data.color +'"></div>' });
+  						break;
+  					case "Polyline":
+  						for(j = 0, jl = data.lnglat.length, path = []; j < jl; j++){
+  							path.push(new AMap.LngLat(data.lnglat[j].lng, data.lnglat[j].lat));
+  						}
+  						feature = new AMap.Polyline({ map: map, path: path, extData: data, zIndex: 2,
+  							strokeWeight: data.strokeWeight, strokeColor: data.strokeColor, strokeOpacity: data.strokeOpacity });
+  						break;
+  					case "Polygon":
+  						for(j = 0, jl = data.lnglat.length, path = []; j < jl; j++){
+  							path.push(new AMap.LngLat(data.lnglat[j].lng, data.lnglat[j].lat));
+  						}
+  						feature = new AMap.Polygon({ map: map, path: path, extData: data, zIndex: 1,
+  							strokeWeight: data.strokeWeight, strokeColor: data.strokeColor, strokeOpacity: data.strokeOpacity,
+  							fillColor: data.fillColor, fillOpacity: data.fillOpacity });
+  						break;
+  					default: feature = null;
+  				}
+  				if(feature){ AMap.event.addListener(feature, "click", mapFeatureClick); }
+  			}
+  		}
+
+  		function mapFeatureClick(e){
+  			if(!infoWindow){ infoWindow = new AMap.InfoWindow({autoMove: true}); }
+  			var extData = e.target.getExtData();
+  			infoWindow.setContent("<h5>" + extData.name + "</h5><div>" + extData.desc + "</div>");
+  			infoWindow.open(map, e.lnglat);
+  		}
+
+  		map = new AMap.Map("mapContainer", {center: new AMap.LngLat(center.lng, center.lat), level: level});
+
+  		loadFeatures();
+
+  		map.on('complete', function(){
+  			map.plugin(["AMap.ToolBar", "AMap.OverView", "AMap.Scale"], function(){
+  				map.addControl(new AMap.ToolBar);
+  			map.addControl(new AMap.OverView({isOpen: true}));
+  			map.addControl(new AMap.Scale);
+  			});
+  		})
+
+  	}();
+  	</script>
+</html>
 </body>
+
 
 </html>
