@@ -241,6 +241,28 @@ ul {
   background-color: transparent;
 }
 
+.city-dropdown a {
+  cursor: pointer;
+  background-color: transparent !important;
+  color: white !important;
+}
+.city-dropdown .dropdown-menu {
+  background: rgba(16, 16, 16, 0.5);
+  min-width: inherit;
+}
+.city-dropdown .dropdown-menu a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.city-dropdown .dropdown-menu a:hover {
+  background: rgba(16, 16, 16, 0.7) !important;
+}
+
+.city-dropdown__toggle {
+  cursor: pointer;
+  background-color: transparent !important;
+}
+
 /*
 Template hero sections
 */
