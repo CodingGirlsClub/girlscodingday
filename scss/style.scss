@@ -1,5 +1,5 @@
 
-/* 
+/*
     Author     : Design_mylife
     File       : Assan event landing template
     version    : v1.0
@@ -23,6 +23,7 @@
 @import "_schedule.scss";
 @import "_pricing.scss";
 @import "_footer.scss";
+@import "_chapter.scss";
 
 
 .faqs{
@@ -139,7 +140,7 @@
             }
         }
         img{
-            @include transform(scale(1.1));   
+            @include transform(scale(1.1));
         }
     }
 }
@@ -253,7 +254,7 @@
     }
     .event-time .dash{
         padding: 10px 10px;
-    } 
+    }
     .event-detail img{
         width: 200px;
         margin-bottom: 20px;

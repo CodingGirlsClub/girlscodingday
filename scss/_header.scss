@@ -29,3 +29,30 @@
     color: rgba(255,255,255,1);
     background-color: transparent;
 }
+
+.city-dropdown {
+  a {
+    cursor: pointer;
+    background-color: transparent !important;
+    color: white !important;
+  }
+
+  .dropdown-menu {
+    background: rgba($black, 0.5);
+    min-width: inherit;
+
+    a {
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+
+    a:hover {
+      background: rgba($black, 0.7) !important;
+    }
+  }
+}
+
+.city-dropdown__toggle {
+  cursor: pointer;
+  background-color: transparent !important;
+}

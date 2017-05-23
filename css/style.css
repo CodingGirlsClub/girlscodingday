@@ -1,4 +1,4 @@
-/* 
+/*
     Author     : Design_mylife
     File       : Assan event landing template
     version    : v1.0
@@ -239,6 +239,28 @@ ul {
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
   color: white;
   background-color: transparent;
+}
+
+.city-dropdown a {
+  cursor: pointer;
+  background-color: transparent !important;
+  color: white !important;
+}
+.city-dropdown .dropdown-menu {
+  background: rgba(16, 16, 16, 0.5);
+  min-width: inherit;
+}
+.city-dropdown .dropdown-menu a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.city-dropdown .dropdown-menu a:hover {
+  background: rgba(16, 16, 16, 0.7) !important;
+}
+
+.city-dropdown__toggle {
+  cursor: pointer;
+  background-color: transparent !important;
 }
 
 /*
@@ -584,6 +606,125 @@ Pricing tables
 }
 .price-box.popular h3, .price-box.popular ul li {
   color: #fff;
+}
+
+.chapter-container {
+  margin-top: 50px;
+}
+.chapter-container ul {
+  list-style-type: none;
+}
+.chapter-container li {
+  margin: 0 0 0 20px;
+}
+.chapter-container li span {
+  margin: 0 0 0 5px;
+}
+
+.chapter-intro {
+  margin-bottom: 50px;
+}
+
+.chapter-intro__content h3 {
+  font-weight: bold;
+}
+.chapter-intro__content p {
+  font-size: 16px;
+}
+
+.chapter-intro__time {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.chapter-intro__item {
+  margin-top: 20px;
+}
+
+.chapter-intro__sub-header {
+  font-weight: bold;
+  color: #EC6C27;
+}
+
+.chapter-awesome__content > span {
+  display: flex;
+  align-items: center;
+}
+.chapter-awesome__content i {
+  font-size: 24px;
+  margin-right: 5px;
+}
+
+.chapter-requirements {
+  font-size: 18px;
+}
+
+.chapter-date {
+  margin-top: 50px;
+}
+
+.chapter-share {
+  margin-top: 20px;
+}
+
+.chapter-share__icon {
+  width: 30px;
+}
+
+.chapter-share--wechat .modal-content {
+  width: 350px;
+}
+.chapter-share--wechat .modal-footer {
+  text-align: left;
+}
+
+.chapter-item {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.chapter-item__header h2 {
+  display: inline;
+  color: #c8c8c8;
+}
+
+.chapter-photo__list {
+  margin: 30px 0 50px 0;
+}
+.chapter-photo__list img {
+  max-width: 300px;
+}
+
+.chapter-awesome__item {
+  display: flex;
+}
+
+.chapter-awesome__icon {
+  text-align: center;
+  width: 30px;
+}
+
+.my-map {
+  margin-top: 20px;
+  width: 100%;
+  height: 350px;
+}
+
+.my-map .icon {
+  background: url(http://lbs.amap.com/console/public/show/marker.png) no-repeat;
+}
+
+.my-map .icon-cir {
+  height: 31px;
+  width: 28px;
+}
+
+.my-map .icon-cir-red {
+  background-position: -11px -5px;
+}
+
+.amap-container {
+  height: 100%;
 }
 
 .faqs {
