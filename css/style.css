@@ -713,6 +713,9 @@ Pricing tables
 .chapter-awesome__item {
   display: flex;
 }
+.chapter-awesome__item a {
+  color: #23527c;
+}
 
 .chapter-awesome__icon {
   text-align: center;
@@ -752,10 +755,6 @@ Pricing tables
 
 .chapter-partners__logo {
   width: 50%;
-}
-
-a {
-  color: #23527c;
 }
 
 .faqs {

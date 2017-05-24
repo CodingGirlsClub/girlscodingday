@@ -116,6 +116,10 @@
 
 .chapter-awesome__item {
   display: flex;
+  
+  a {
+    color: $blue;
+  }
 }
 
 .chapter-awesome__icon {
@@ -144,8 +148,4 @@
 
 .chapter-partners__logo {
   width: 50%;
-}
-
-a {
-  color: $blue;
 }
