@@ -742,6 +742,22 @@ Pricing tables
   height: 100%;
 }
 
+.chapter-partner {
+  padding: 10px 0px 10px 0;
+}
+.chapter-partner img {
+  max-width: 400px;
+  max-height: 100px;
+}
+
+.chapter-partners__logo {
+  width: 50%;
+}
+
+a {
+  color: #23527c;
+}
+
 .faqs {
   background: #f03939;
 }

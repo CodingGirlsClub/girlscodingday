@@ -132,3 +132,20 @@
 .my-map .icon-cir { height: 31px; width: 28px; }
 .my-map .icon-cir-red { background-position: -11px -5px; }
 .amap-container{height: 100%;}
+
+.chapter-partner {
+  padding: 10px 0px 10px 0;
+
+  img {
+    max-width: 400px;
+    max-height: 100px;
+  }
+}
+
+.chapter-partners__logo {
+  width: 50%;
+}
+
+a {
+  color: $blue;
+}
