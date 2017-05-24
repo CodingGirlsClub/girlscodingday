@@ -646,6 +646,21 @@ Pricing tables
   color: #EC6C27;
 }
 
+.schedule th {
+  width: 25%;
+  font-size: 15px;
+  font-weight: 200;
+  text-align: left;
+}
+.schedule td {
+  padding: 1em 0;
+  font-size: 15px;
+  color: #390c00;
+}
+.schedule td h4 {
+  margin-bottom: 0.2em;
+}
+
 .chapter-awesome__content > span {
   display: flex;
   align-items: center;
