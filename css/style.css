@@ -757,16 +757,16 @@ Pricing tables
   width: 50%;
 }
 
-.chapter-share__barcode {
+.chapter-share__qrcode {
   padding-top: 0;
   padding-left: 100px;
   padding-right: 100px;
 }
-.chapter-share__barcode img {
+.chapter-share__qrcode img {
   width: 100%;
 }
 @media (max-width: 767px) {
-  .chapter-share__barcode {
+  .chapter-share__qrcode {
     padding-top: 50px;
     padding-left: 50px;
     padding-right: 50px;
