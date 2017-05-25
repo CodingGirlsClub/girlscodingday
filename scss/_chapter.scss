@@ -116,7 +116,7 @@
 
 .chapter-awesome__item {
   display: flex;
-  
+
   a {
     color: $blue;
   }
@@ -148,4 +148,20 @@
 
 .chapter-partners__logo {
   width: 50%;
+}
+
+.chapter-share__barcode {
+  padding-top: 0;
+  padding-left: 100px;
+  padding-right: 100px;
+
+  img {
+    width: 100%;
+  }
+
+  @media #{$mobile} {
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
 }
