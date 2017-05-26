@@ -127,6 +127,24 @@ ul {
   line-height: 30px;
 }
 
+.rotation-title {
+  font-weight: bolder;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.carousel-indicators {
+  position: relative;
+  margin-left: 0;
+  width: inherit;
+  left: 0;
+  margin-top: 30px;
+  bottom: 0;
+}
+.carousel-indicators li {
+  margin: 0 7px;
+}
+
 /**template buttons**/
 .btn {
   font-family: "Montserrat", sans-serif;
