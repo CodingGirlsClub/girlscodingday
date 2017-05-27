@@ -142,7 +142,12 @@
 
   img {
     max-width: 400px;
-    max-height: 100px;
+    max-height: auto;
+
+    @media #{$mobile} {
+      max-width: 100%;
+      height: auto;
+    }
   }
 }
 

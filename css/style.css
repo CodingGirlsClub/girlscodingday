@@ -768,7 +768,13 @@ Pricing tables
 }
 .chapter-partner img {
   max-width: 400px;
-  max-height: 100px;
+  max-height: auto;
+}
+@media (max-width: 767px) {
+  .chapter-partner img {
+    max-width: 100%;
+    height: auto;
+  }
 }
 
 .chapter-partners__logo {
