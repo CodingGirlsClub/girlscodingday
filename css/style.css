@@ -879,6 +879,19 @@ Pricing tables
   color: #fff;
   opacity: 0.8;
 }
+@media (max-width: 767px) {
+  .footer {
+    text-align: center;
+  }
+}
+.footer .footer__copyright {
+  text-align: right;
+}
+@media (max-width: 767px) {
+  .footer .footer__copyright {
+    text-align: center;
+  }
+}
 
 .gallery-section {
   background: #fbfbfb;

@@ -85,7 +85,6 @@ function setSync(sync1, sync2) {
 
   function syncPosition(el){
     var current = this.currentItem;
-    console.log(current);
     sync2
       .find(".owl-item")
       .removeClass("synced")
