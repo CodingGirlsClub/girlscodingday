@@ -51,8 +51,15 @@ $(document).ready(function () {
     });
 //testominals
 var sync1 = $("#sync1");
-  var sync2 = $("#sync2");
+var sync2 = $("#sync2");
 
+var sync3 = $("#sync3");
+var sync4 = $("#sync4");
+
+setSync(sync1, sync2);
+setSync(sync3, sync4);
+
+function setSync(sync1, sync2) {
   sync1.owlCarousel({
     singleItem : true,
     slideSpeed : 1000,
@@ -78,17 +85,17 @@ var sync1 = $("#sync1");
 
   function syncPosition(el){
     var current = this.currentItem;
-    $("#sync2")
+    sync2
       .find(".owl-item")
       .removeClass("synced")
       .eq(current)
       .addClass("synced");
-    if($("#sync2").data("owlCarousel") !== undefined){
+    if(sync2.data("owlCarousel") !== undefined){
       center(current);
     }
   }
 
-  $("#sync2").on("click", ".owl-item", function(e){
+  sync2.on("click", ".owl-item", function(e){
     e.preventDefault();
     var number = $(this).data("owlItem");
     sync1.trigger("owl.goTo",number);
@@ -119,6 +126,8 @@ var sync1 = $("#sync1");
       sync2.trigger("owl.goTo", num-1);
     }
   }
+}
+
   //counter up
     $('.counter-digit').counterUp({
         delay: 10,

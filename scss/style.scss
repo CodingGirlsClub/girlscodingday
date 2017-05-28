@@ -94,6 +94,18 @@
         color: #fff;
         opacity: 0.8;
     }
+
+    @media #{$mobile} {
+      text-align: center;
+    }
+
+    .footer__copyright {
+      text-align: right;
+
+      @media #{$mobile} {
+        text-align: center;
+      }
+    }
 }
 
 .gallery-section{
