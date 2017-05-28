@@ -23,7 +23,7 @@ $(document).ready(function () {
     //auto close navbar
      function close_toggle() {
         if ($(window).width() <= 768) {
-            $('.navbar-collapse a').on('click', function () {
+            $('.navlink a').on('click', function () {
                 $('.navbar-collapse').collapse('hide');
             });
         }
