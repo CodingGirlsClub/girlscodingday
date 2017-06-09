@@ -18,7 +18,7 @@ Half images section
     background-color: #000;
     top: 0;
     position: absolute;
-    background-image: url(../images/bg2.jpg);
+    background-image: url('http://opvf95u4n.bkt.clouddn.com/bg2.jpg');
     background-size: cover;
     background-position: 50% 50%;
     &.left{
@@ -28,7 +28,7 @@ Half images section
         right: 0;
     }
     &.bg3{
-       background-image: url(../images/bg3.jpg); 
+       background-image: url('http://opvf95u4n.bkt.clouddn.com/bg3.jpg');
     }
 }
 .event-time{

@@ -311,7 +311,7 @@ Template hero sections
 }
 
 .parallax-bg {
-  background-image: url("../images/bg1.jpg");
+  background-image: url("http://opvf95u4n.bkt.clouddn.com/bg1.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -325,7 +325,7 @@ Template hero sections
 
 /**call to actions**/
 .cta {
-  background-image: url("../images/bg3.jpg");
+  background-image: url("http://opvf95u4n.bkt.clouddn.com/bg3.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -354,7 +354,7 @@ Half images section
   background-color: #000;
   top: 0;
   position: absolute;
-  background-image: url(../images/bg2.jpg);
+  background-image: url("http://opvf95u4n.bkt.clouddn.com/bg2.jpg");
   background-size: cover;
   background-position: 50% 50%;
 }
@@ -365,7 +365,7 @@ Half images section
   right: 0;
 }
 .image-col.bg3 {
-  background-image: url(../images/bg3.jpg);
+  background-image: url("http://opvf95u4n.bkt.clouddn.com/bg3.jpg");
 }
 
 .event-time {
@@ -452,7 +452,6 @@ Testimonials
 }
 .owl-thumnails .owl-item .item img {
   width: 75px;
-  height: 75px;
   display: block;
   margin: 0 auto;
   border: 2px solid transparent;
@@ -980,7 +979,7 @@ Pricing tables
 
 .fun-facts {
   padding: 120px 0;
-  background-image: url("../images/bg4.jpg");
+  background-image: url("http://opvf95u4n.bkt.clouddn.com/bg4.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
