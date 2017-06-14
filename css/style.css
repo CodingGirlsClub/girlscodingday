@@ -769,7 +769,7 @@ Pricing tables
 }
 .chapter-partner img {
   max-width: 400px;
-  max-height: auto;
+  max-height: 200px;
 }
 @media (max-width: 767px) {
   .chapter-partner img {
@@ -821,9 +821,14 @@ Pricing tables
   margin-bottom: 20px;
 }
 
+.sponsors-row {
+  display: flex;
+  align-items: center;
+}
 .sponsors-row img {
+  width: 100%;
   display: block;
-  margin: 0 auto;
+  margin: auto;
 }
 
 .subscribe-section {

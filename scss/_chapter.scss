@@ -142,7 +142,7 @@
 
   img {
     max-width: 400px;
-    max-height: auto;
+    max-height: 200px;
 
     @media #{$mobile} {
       max-width: 100%;
