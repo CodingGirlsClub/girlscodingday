@@ -1,8 +1,14 @@
 ### 添加志愿者信息
 
 1. 切换到分支master
-2. 修改 `volunteers.html` 页面，按照格式（在所支援的城市，按照姓氏拼音升序添加），添加个人信息
+2. 修改 `volunteers.html` 页面，按照格式（在所支援的城市，按照姓氏拼音升序添加），添加个人信息。（个人照片请尽量使用其他图床。）
 3. 提交 PR
+
+若有疑问，可以发邮件到  tutors@codingirls.club
+
+### 如何提交PR
+- [Creating a pull request](https://help.github.com/articles/creating-a-pull-request/)
+- [Creating a pull request from a fork](https://help.github.com/articles/creating-a-pull-request-from-a-fork/)
 
 ### Contirbution Guide
 本项目使用`compass`作为`sass`的构建工具。请先安装好相关环境。
