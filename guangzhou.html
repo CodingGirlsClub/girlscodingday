@@ -165,11 +165,11 @@
             <hr />
             <div class="col-md-6 col-sm-12 schedule">
               <h3 class="chapter-intro__sub-header">日程安排</h3>
-              <h4>Girls Coding Day - 日期待定</h4>
+              <h4>Girls Coding Day - 2017.8.18(Fri)</h4>
               <table>
                 <tbody>
                   <tr>
-                    <th>9:30 - 11:45 AM</th>
+                    <th>19:00 - 21:30 AM</th>
                     <td>
                       <h5>Kick Off Party</h5> 教练与学员互相认识，开发环境预装，活动资料发放，以及预习知识。
                     </td>
@@ -177,7 +177,7 @@
                 </tbody>
               </table>
               <hr />
-              <h4>Girls Coding Day - 日期待定</h4>
+              <h4>Girls Coding Day - 2017.8.26(Sat)</h4>
               <table>
                 <tbody>
                   <tr>
@@ -216,24 +216,27 @@
                       <h5>Review & Vote</h5> 评选学员作品
                     </td>
                   </tr>
-                  <tr>
-                    <th></th>
-                    <td>
-                      <h5>Dinner</h5>
-                    </td>
-                  </tr>
                 </tbody>
               </table>
 
               <div class="chapter-intro__item">
                 <h3 class="chapter-intro__sub-header">
-                    合作伙伴
-                  </h3>
-                <div class="chapter-partner">
-                  <a href="https://www.thoughtworks.com/">
-                                        <img src="images/partners/th-logo.png" target="_blank">
-                                    </a>
+                    本地合作伙伴
+                </h3>
+                <div class="chapter-partner" style="display: inline-block; margin: 1em;">
+                  <a href="https://www.kudelabs.com/"><img src="images/sponsors/guangzhou/kudelabs.png" target="_blank" width="150"></a>
                 </div>
+
+                <div class="chapter-partner" style="display: inline-block; margin: 1em;">
+                  <a href="http://www.yitopia.co/"><img src="images/sponsors/guangzhou/yigather.jpeg" target="_blank" width="150"></a>
+                </div>
+
+                <div class="chapter-partner" style="display: inline-block; margin: 1em;">
+                  <a href="http://www.haosesalad.com/"><img src="images/sponsors/guangzhou/sexy_salad.jpeg" target="_blank" width="150"></a>
+                </div>
+                <p>
+                  <strong>本地合作意向咨询请联系 <a href="mailto:guangzhou@codingirls.club">guangzhou@codingirls.club</a></strong>
+                </p>                
               </div>
 
             </div>
@@ -242,37 +245,37 @@
 
               <div class="chapter-intro__item">
                 <h3 class="chapter-intro__sub-header">地点</h3>
-                <p>地点待定</p>
+                <p><strong>一起开工社区（广州市荔湾区中山七路68号)</strong></p>
               </div>
-              <!-- <div id="wrap" class="my-map">
+              <div id="wrap" class="my-map">
                 <div id="container" style="width:500px; height:300px"></div>
-              </div> -->
+              </div>              
 
               <div class="chapter-intro__item">
                 <h3 class="chapter-intro__sub-header">白金赞助商</h3>
-                <div class="chapter-partner">
+                <div class="chapter-partner" style="display: inline-block; margin: 1em;">
                   <a href="https://yunbi.com/" target="_blank">
-                    <img src="images/sponsors/yunbi.png">
+                    <img src="images/sponsors/yunbi.png" width="100">
                   </a>
                 </div>
-                <div class="chapter-partner">
+                <div class="chapter-partner" style="display: inline-block; margin: 1em;">
                   <a href="http://neo.org/" target="_blank">
-                    <img src="images/sponsors/xiaoyi.jpg">
+                    <img src="images/sponsors/xiaoyi.jpg" width="100">
                   </a>
                 </div>
-                <div class="chapter-partner">
+                <div class="chapter-partner" style="display: inline-block; margin: 1em;">
                   <a href="https://pengpeng.us/" target="_blank">
-                    <img src="images/sponsors/pengpeng.jpg">
+                    <img src="images/sponsors/pengpeng.jpg" width="100">
                   </a>
                 </div>
-                <div class="chapter-partner">
+                <div class="chapter-partner" style="display: inline-block; margin: 1em;">
                   <a href="http://www.getui.com/" target="_blank">
-                    <img src="images/sponsors/getui.jpeg">
+                    <img src="images/sponsors/getui.jpeg" width="100">
                   </a>
                 </div>
-                <div class="chapter-partner">
+                <div class="chapter-partner" style="display: inline-block; margin: 1em;">
                   <a href="http://www.stuq.org/" target="_blank">
-                    <img src="images/sponsors/stuq.png">
+                    <img src="images/sponsors/stuq.png" width="100">
                   </a>
                 </div>
                 <p>合作意向咨询请联系
@@ -338,7 +341,7 @@
   <script src="js/custom.js"></script>
   <script>
     function init() {
-      var center = new qq.maps.LatLng(30.492120, 114.410480);
+      var center = new qq.maps.LatLng(23.1256600, 113.2524360);
       var myOptions = {
         zoom: 12,
         center: center,
@@ -358,7 +361,7 @@
       qq.maps.event.addListener(marker, 'click', function() {
         info.open();
         info.setContent('<div style="text-align:center;white-space:nowrap;' +
-          'margin:10px;">洪山区关山大道332号保利国际中心20层<br/> ThoughtWorks 武汉分公司</div>');
+          'margin:10px;">广州市荔湾区中山七路68号<br/> 一起开工社区</div>');
         info.setPosition(marker.getPosition());
       });
     }
