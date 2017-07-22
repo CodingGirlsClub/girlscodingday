@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /*
     Author     : Design_mylife
     File       : Assan event landing template
@@ -801,10 +800,79 @@ Pricing tables
   }
 }
 
+/*
+ * portfolios
+*/
+.portfolios {
+  padding: 70px 40px 40px 40px;
+}
+
+.portfolios-city {
+  display: flex;
+  flex-direction: column;
+}
+
+.portfolios-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 0 1 70px;
+  font-size: 30px;
+  color: #3c763d;
+  border-bottom: 1px solid #eee;
+}
+
+.portfolios-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.portfolios-list li {
+  flex: 0 0 400px;
+  list-style: none;
+}
+
+.portfolios-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.portfolios-content {
+  position: relative;
+  box-shadow: 0 2px 13px 1px rgba(0, 0, 0, 0.25);
+}
+.portfolios-content img {
+  width: 100%;
+  height: 250px;
+}
+
+.portfolios-text {
+  display: none;
+  position: absolute;
+  top: 0px;
+  left: 0;
+  background: rgba(239, 239, 239, 0.82);
+  padding: 10px;
+  text-align: center;
+  height: 100%;
+}
+
+.portfolios-content:hover .portfolios-text {
+  display: inline-block;
+  cursor: pointer;
+}
+
 .faqs {
   background: #f03939;
 }
-.faqs h1, .faqs h4, .faqs p, .faqs .center-title h2 {
+.faqs h1,
+.faqs h4,
+.faqs p,
+.faqs .center-title h2 {
   color: #fff;
 }
 .faqs p {
@@ -995,7 +1063,8 @@ Pricing tables
   background-position: 0 0;
   text-align: center;
 }
-.fun-facts h1, .fun-facts span {
+.fun-facts h1,
+.fun-facts span {
   color: #fff;
 }
 .fun-facts h1 {
@@ -1064,7 +1133,10 @@ Pricing tables
     display: none;
   }
 
-  .cta, .parallax-bg, .fun-facts, .subscribe-section {
+  .cta,
+  .parallax-bg,
+  .fun-facts,
+  .subscribe-section {
     background-attachment: scroll !important;
     background-position: 50% 50% !important;
   }
