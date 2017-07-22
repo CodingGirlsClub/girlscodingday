@@ -1,0 +1,75 @@
+/*
+ * portfolios
+*/
+.portfolios {
+  padding: 70px 40px 40px 40px;
+}
+
+.portfolios-city {
+  display: flex;
+  flex-direction: column;
+}
+
+.portfolios-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 0 1 70px;
+  font-size: 30px;
+  color: #3c763d;
+  border-bottom: 1px solid #eee;
+}
+
+.portfolios-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  flex-wrap: wrap;
+  margin-top: 20px;
+
+  li {
+    flex: 0 0 400px;
+    list-style: none;
+  }
+}
+
+.portfolios-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+
+  a {
+    flex: 0 0 50px;
+    font-size: 20px;
+    text-align: center;
+  }
+}
+
+.portfolios-content {
+  position: relative;
+  box-shadow: 0 2px 13px 1px rgba(0,0,0,.25);
+
+  img {
+    width: 100%;
+    height: 250px;
+  }
+}
+
+
+.portfolios-text {
+  display: none;
+  position: absolute;
+  top: 0px;
+  left: 0;
+  background: rgba(239,239,239,.82);
+  padding: 10px;
+  text-align: center;
+  height: 100%;
+}
+
+.portfolios-content:hover .portfolios-text {
+  display: inline-block;
+  cursor: pointer;
+}
+
