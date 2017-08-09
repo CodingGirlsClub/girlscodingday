@@ -71,9 +71,9 @@ $(document).ready(function() {
 
         sync2.owlCarousel({
             items: 8,
-            itemsDesktop: [1199, 10],
-            itemsDesktopSmall: [979, 10],
-            itemsTablet: [768, 8],
+            itemsDesktop: [1199, 6],
+            itemsDesktopSmall: [979, 6],
+            itemsTablet: [768, 6],
             itemsMobile: [479, 4],
             pagination: false,
             responsiveRefreshRate: 100,
