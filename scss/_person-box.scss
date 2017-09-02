@@ -10,7 +10,6 @@ Speakers person box
         padding: 20px 15px;
         h4{
             margin-bottom: 0px;
-            text-transform: uppercase;
             font-size: 16px;
         }
         span{
@@ -24,6 +23,7 @@ Speakers person box
         border: 3px solid rgba(0,0,0,0.1);
         height: 150px;
         width: 150px;
+        object-fit: cover;
     }
 }
 .socials{
