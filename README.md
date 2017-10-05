@@ -29,3 +29,23 @@
   $ compass compile
   ```
 
+### 如何添加学员作品
+在`portfolios.html`中添加学员作品，该界面使用了`React`进行渲染，添加作品时只需修改`head`中嵌入的javascript.
+example
+```js
+var data = [
+  {
+    // 以武汉为例，在city名为Wuhan的json的portfolios数组中添加作品信息
+    city: "Wuhan",
+    portfolios: [
+      {
+        img: "./images/portfolios/wuhan/Responsive-Portfolio-Template-for-Developers.jpg", // 作品截图的路径
+        name: "Responsive-Portfolio", // 作品名
+        author: "SZ", // 学员姓名
+        tutor: "名字", // 教练姓名
+        des: "Keep leaning, keep challenging. There is no way to happiness,happiness is the way.", // 作品描述
+        link: "https://stacy369.github.io/MyBlog/" // 作品链接
+      }
+  }
+]
+```
