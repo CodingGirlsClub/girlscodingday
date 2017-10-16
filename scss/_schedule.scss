@@ -47,7 +47,7 @@ schedule
             width:100%;
         }
         a:hover{
-            color: $primary-color;    
+            color: $primary-color;
         }
     }
 }
@@ -91,4 +91,50 @@ schedule
             color: #777;
         }
     }
+}
+
+.schedule-item {
+  margin: 0 50px;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 2px 2px 4px 2px rgba(0,0,0,0.2);
+}
+
+.schedule-item__banner {
+  img {
+    width: 100%;
+  }
+}
+
+.schedule-item__date {
+  font-weight: bold;
+}
+
+.schedule-item__header {
+  padding-top: 25px;
+}
+
+.schedule-event {
+  display: flex;
+}
+
+.schedule-event__img {
+  width: 40%;
+  margin-right: 5px;
+
+  img {
+    width: 100%;
+  }
+}
+
+.border-top__blue {
+  border-top: 5px solid #2196F3;
+}
+
+.border-top__pink {
+  border-top: 5px solid #E91E63;
+}
+
+.border-top__purple {
+  border-top: 5px solid #9C27B0;
 }
