@@ -97,13 +97,13 @@
                             <div class="col-md-6 col-sm-12">
                                 <h1>Girls Coding Day 深圳</h1>
                             </div>
-                            <div class="col-md-3 col-sm-6">
-                                <a href="https://wx06172e3f5cb95137.duohui.co/event/1479" class="duohui-button">
-                                    <button class="btn btn-lg btn-success">学员报名</button>
+                            <div class="col-md-4 col-sm-6">
+                                <a href="https://wx06172e3f5cb95137.duohui.co/event/1967" class="duohui-button">
+                                    <button class="btn btn-lg btn-block btn-danger">学员报名</button>
                                 </a>
                             </div>
-                            <div class="col-md-3 col-sm-6">
-                                <a href="https://codingirlsclub.jinshuju.com/f/Kn7se6" class="btn btn-lg btn-success" role="button">教练报名</a>
+                            <div class="col-md-2 col-sm-6">
+                                <a href="https://codingirlsclub.jinshuju.com/f/Kn7se6" class="btn btn-lg btn-block btn-success" role="button">教练报名</a>
                             </div>
                         </div>
                         <p>Hello World!</p>
@@ -177,11 +177,11 @@
                         <hr />
                         <div class="col-md-6 col-sm-12 schedule">
                             <h3 class="chapter-intro__sub-header">日程安排</h3>
-                            <h4>Girls Coding Day - 日期待定</h4>
+                            <h4>Girls Coding Day - 12/16</h4>
                             <table>
                                 <tbody>
                                     <tr>
-                                        <th>9:30 - 11:45 AM</th>
+                                        <th>15:00 - 16:00 AM</th>
                                         <td>
                                             <h5>Kick Off Party</h5> 教练与学员互相认识，开发环境预装，活动资料发放，以及预习知识。
                                         </td>
@@ -189,7 +189,7 @@
                                 </tbody>
                             </table>
                             <hr />
-                            <h4>Girls Coding Day - 日期待定</h4>
+                            <h4>Girls Coding Day - 12/24</h4>
                             <table>
                                 <tbody>
                                     <tr>
@@ -391,21 +391,22 @@
             //获取标记的可拖动属性
             info.open();
             qq.maps.event.addListener(marker, 'click', function() {
-                info.open();
-                info.setContent('<div style="text-align:center;white-space:nowrap;' +
-                    'margin:10px;">洪山区关山大道332号保利国际中心20层<br/> ThoughtWorks 武汉分公司</div>');
-                info.setPosition(marker.getPosition());
-            });
-        }
+                    info.open();
+                    info.setContent('<div style="text-align:center;white-space:nowrap;' +
+                        'margin:10px;">深圳市南山区大冲商务中心 C栋2702  <
+                        br > ThoughtWorks 武汉分公司 < /div>');
+                        info.setPosition(marker.getPosition());
+                    });
+            }
 
-        function loadScript() {
-            var script = document.createElement("script");
-            script.type = "text/javascript";
-            script.src = "https://map.qq.com/api/js?v=2.exp&callback=init";
-            document.body.appendChild(script);
-        }
+            function loadScript() {
+                var script = document.createElement("script");
+                script.type = "text/javascript";
+                script.src = "https://map.qq.com/api/js?v=2.exp&callback=init";
+                document.body.appendChild(script);
+            }
 
-        window.onload = loadScript;
+            window.onload = loadScript;
     </script>
     <script src="https://wx.duohui.co/js/embed.js"></script>
     <!-- 多会 -->
