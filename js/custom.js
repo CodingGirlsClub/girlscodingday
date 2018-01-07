@@ -41,7 +41,7 @@ $(document).ready(function() {
     //sticky navbar
     $(".navbar-sticky").sticky({ topSpacing: 0 });
     //countDown js
-    $('#countdown').countdown('2017/08/18 17:00:00', function(event) {
+    $('#countdown').countdown('2018/01/13 9:00:00', function(event) {
         var $this = $(this).html(event.strftime('' +
             '<span class="countdown-unit"><span class="countdown-unit__digit">%D</span><br><span>Days</span></span>' +
             '<span class="countdown-unit"><span class="countdown-unit__digit">%H</span><br><span>Hours</span></span>' +
