@@ -7,7 +7,7 @@
 5. push 到自己的地址，也就是当前的 origin 地址
 6. 在 github 上提交 pr
 
-若有疑问，可以发邮件到  tutors@codingirls.club
+若有疑问，可以发邮件到  tutors@codingirlsclub.com
 
 #### 如何提交PR
 - [Creating a pull request](https://help.github.com/articles/creating-a-pull-request/)
