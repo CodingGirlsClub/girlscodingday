@@ -681,10 +681,9 @@ Pricing tables
 .schedule td h4 {
   margin-bottom: 0.2em;
 }
-.schedule table {
+.schedule table{
   width: 100%;
 }
-
 .chapter-awesome__content > span {
   display: flex;
   align-items: center;
