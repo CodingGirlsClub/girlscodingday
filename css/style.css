@@ -311,7 +311,7 @@ Template hero sections
 }
 
 .parallax-bg {
-  background-image: url(../images/bg1_min.jpg);
+  background-image: url("http://opvf95u4n.bkt.clouddn.com/bg1.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -866,6 +866,7 @@ Pricing tables
   padding: 10px;
   text-align: center;
   height: 100%;
+  width: 100%;
 }
 
 .portfolios-content:hover .portfolios-text {
